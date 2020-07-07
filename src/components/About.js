@@ -1,6 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 function About(){
+    const [open, setOpen] = useState(false)
+
+    const openHandle = {
+
+    }
+
+    
     return(
         <>
         
