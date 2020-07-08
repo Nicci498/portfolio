@@ -1,17 +1,20 @@
 import React, {useState} from 'react';
 
-function About(){
-    const [open, setOpen] = useState(false)
+import AboutButton from './AboutButton';
+import AboutSection from './AboutSection';
 
-    const openHandle = {
+function About() {
 
-    }
-
-    
-    return(
-        <>
-        
-        </>
-    )
-}
-export default About;
+    const [ showAbout, setShowAbout] = useState(false) 
+    return (
+      
+        <div className="about">
+          {(!showAbout)?(
+          <AboutButton setShowAbout={setShowAbout} />
+          ):(  
+          <AboutSection setShowAbout={setShowAbout} />  
+          )}
+        </div>   
+    );
+  }
+  export default About;
