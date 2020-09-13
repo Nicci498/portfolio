@@ -43,4 +43,6 @@ body{
   color: #61dafb;
 }
 
-
+.about-section .about-title .about .role{
+  font-weight: bold;
+}
