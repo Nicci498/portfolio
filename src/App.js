@@ -13,7 +13,7 @@ function App() {
   setTimeout(() => {
     a.style.display = 'none'
   }, 1000);
-  console.log("HELLO")
+  console.log("Testing this out")
   }
 
   return (
@@ -24,7 +24,7 @@ function App() {
         </div>
         <br/>
         <About />
-        <button onClick={() => showTitleabs()}> HI </button>
+        <button onClick={() => showTitleabs()}> Hello there </button>
         <Contact />
         <Projects />
       </header>
